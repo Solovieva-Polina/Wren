@@ -1,0 +1,19 @@
+<table>
+ 	<thead>
+ 		<th style="border: 1px solid black;">name</th>
+ 		<th style="border: 1px solid black;">email</th>
+ 		<th style="border: 1px solid black;">calculation of carbon footprint</th>
+ 		<th style="border: 1px solid black;">quantity of trees</th>
+ 	</thead>
+ 	<tbody>
+ 	    {{#each opinions}}
+ 	    <tr>
+ 	       <td>{{name}}</td>
+ 	       <td>{{email}}</td>
+ 	       <td>{{tons}}</td>
+ 	       <td>{{quantity}}</td>
+        </tr>
+
+ 	    {{/each}} 
+ 	</tbody>
+ </table>
